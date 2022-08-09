@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.scss';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
           <p className="Login-subtitle">Enter your credentials to access your account.</p>
           <div className="Login-form-container">
             <input type="text" id="name" name="name" className="Login-email-input" required placeholder="Enter your email"></input>
-            <input type="text" id="name" name="name" className="Login-email-input" required placeholder="Enter your password"></input>
+            <input type="password" id="name" name="name" className="Login-email-input" required placeholder="Enter your password"></input>
             <button className="Login-email-button">Sign In</button>
           </div>
         </div>
