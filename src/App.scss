@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Login-container{
+  width: 35%;
+  height: 370px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.Login-title {
+  color: #282c34;
+}
+
+.Login-subtitle {
+  color: rgb(187, 187, 187);
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.Login-email-input {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Login-form-container {
+  margin-top: 30px;
+}
+
+.Login-email-button {
+  width: 83%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  background-color: #287ffe;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Login-reset-text{
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+#Login-reset-link {
+  color: #287ffe;
+  text-decoration: none;
+}
+
+
