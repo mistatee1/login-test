@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.scss';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -11,12 +12,14 @@ function App() {
           <p className="Login-title">Welcome Back</p>
           <p className="Login-subtitle">Enter your credentials to access your account.</p>
           <div className="Login-form-container">
-            <input type="text" id="name" name="name" className="Login-email-input" required placeholder="Enter your email"></input>
+            <form>
+            <input type="email" id="name" name="name" className="Login-email-input" required placeholder="Enter your email"></input>
             <input type="password" id="name" name="name" className="Login-email-input" required placeholder="Enter your password"></input>
-            <button className="Login-email-button">Sign In</button>
+            <button className="Login-email-button" type="submit">Sign In</button>
+            </form>
           </div>
         </div>
-        <p className="Login-reset-text">Forgot your password? <a href="#" id="Login-reset-link">Reset Password</a></p>
+        <p className="Login-reset-text">Forgot your password? <a href="/reset" id="Login-reset-link">Reset Password</a></p>
       </header>
     </div>
   );
