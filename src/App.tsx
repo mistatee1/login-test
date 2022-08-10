@@ -69,8 +69,8 @@ function App() {
           <p className="Login-title">Welcome Back</p>
           <p className="Login-subtitle">Enter your credentials to access your account.</p>
           <div className="Login-form-container">
-            <input type="email" id="name" name="name" className="Login-email-input" required placeholder="Enter your email" value={email} onChange={handleEmailChange}></input>
-            <input type="password" id="name" name="name" className="Login-email-input" required placeholder="Enter your password" value={password} onChange={handlePasswordChange}></input>
+            <input type="email" id="emailInput" name="email" className="Login-email-input" required placeholder="Enter your email" value={email} onChange={handleEmailChange}></input>
+            <input type="password" id="passwordInput" name="password" className="Login-email-input" required placeholder="Enter your password" value={password} onChange={handlePasswordChange}></input>
             <button className="Login-email-button" onClick={mockLogin}>Sign In</button>
           </div>
           {loginError && <p className="Login-error">Email or password is incorrect.</p>}
