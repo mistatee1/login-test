@@ -48,6 +48,7 @@ function App() {
       setPassword('');
       setLoggedin(true);
       setLoginError(false);
+      console.log('LoggedIn: ', loggedIn)
       alert('Welcome to your dashboard');
       return
 

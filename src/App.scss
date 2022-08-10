@@ -34,7 +34,7 @@
   background-color: white;
   margin-top: 50px;
   border-radius: 2px;
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5)
+  box-shadow: 5px 10px 18px #888888;
 }
 
 .Login-title {
@@ -50,8 +50,39 @@
 
 .Login-error {
   color: rgb(230, 42, 42);
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 25px;
+  font-weight: bold;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .Login-email-input {
