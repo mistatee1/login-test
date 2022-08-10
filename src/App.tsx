@@ -25,10 +25,12 @@ function App() {
   const [loggedIn, setLoggedin] = useState(false);
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setLoginError(false);
     setEmail(event.target.value);
   };
 
   const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setLoginError(false);
     setPassword(event.target.value);
   };
 
