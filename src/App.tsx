@@ -42,6 +42,7 @@ function App() {
       password: password
     }
 
+    // Handle succesful login attempt
     if (Object.entries(userCredentials).toString() === Object.entries(testUser).toString()) {
       setEmail('');
       setPassword('');
@@ -49,6 +50,8 @@ function App() {
       setLoginError(false);
       alert('Welcome to your dashboard');
       return
+
+      // Navigate to /dashboard with react router.
     }
 
     setLoginError(true);
