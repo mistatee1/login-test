@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 7vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .Login-container{
-  width: 35%;
+  width: 370px;
   height: 370px;
   background-color: white;
   margin-top: 50px;
@@ -44,6 +44,12 @@
   color: rgb(187, 187, 187);
   font-size: 14px;
   margin-top: -20px;
+}
+
+
+.Login-error {
+  color: rgb(230, 42, 42);
+  font-size: 14px;
 }
 
 .Login-email-input {

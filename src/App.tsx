@@ -18,6 +18,7 @@ function App() {
             <button className="Login-email-button" type="submit">Sign In</button>
             </form>
           </div>
+          {/* <p className="Login-error">Email or password is incorrect.</p> */}
         </div>
         <p className="Login-reset-text">Forgot your password? <a href="/reset" id="Login-reset-link">Reset Password</a></p>
       </header>
