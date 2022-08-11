@@ -2,6 +2,13 @@
 
 This is my solution to the test. 
 
+<img 
+  src="public/login.png" 
+  alt="Alt text" 
+  title="Login Screenshot"
+  style="display: inline-block; margin: 0 auto; max-width: 700px">
+  >
+
 # The app is hosted on vercel
 
 https://login-test-topaz.vercel.app/
