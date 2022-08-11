@@ -18,6 +18,10 @@ https://login-test-topaz.vercel.app/
 Email: test@test.com
 Password: 123456
 
+### `yarn`
+
+This will install dependencies
+
 ### `yarn start`
 
 Runs the app in the development mode.
