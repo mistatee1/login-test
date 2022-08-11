@@ -2,11 +2,21 @@
 
 This is my solution to the test. It mocks a login process. It displays an alert on successful login.
 
+
+# Laptop screen
 <img 
   src="public/login.png" 
   alt="Alt text" 
   title="Login Screenshot"
-  style="display: inline-block; margin: 0 auto; max-width: 700px">
+  style="display: inline-block; margin: 0 auto; max-width: 500px">
+  >
+
+# Mobile screen
+<img 
+  src="public/login-mobile.png" 
+  alt="Alt text" 
+  title="Login Screenshot"
+  style="display: inline-block; margin: 0 auto; max-width: 500px">
   >
 
 # The app is hosted on vercel
