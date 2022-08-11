@@ -1,6 +1,6 @@
 # Login
 
-This is my solution to the test. 
+This is my solution to the test. It mocks a login process. It displays an alert on successful login.
 
 <img 
   src="public/login.png" 
